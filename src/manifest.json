@@ -1,0 +1,27 @@
+{
+    "name": "Disable Download Shelf",
+    "version": "1.0",
+    "description": "Disables the download bar at bottom of window",
+    "author": "tyler@conceptualspace.net",
+    "permissions": ["downloads", "downloads.shelf"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+    	"default_icon": {
+            "16": "icon/icon16.png",
+            "24": "icon/icon24.png",
+            "32": "icon/icon32.png",
+            "48": "icon/icon48.png"
+          },
+          "default_title": "Downloads"
+    },
+    "icons": {
+      "16": "icon/icon16.png",
+      "32": "icon/icon32.png",
+      "48": "icon/icon48.png",
+      "128": "icon/icon128.png"
+    },
+    "manifest_version": 2
+  }
