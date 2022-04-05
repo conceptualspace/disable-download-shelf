@@ -13,6 +13,7 @@ function disableShelf() {
 
 chrome.runtime.onInstalled.addListener(disableShelf);
 chrome.runtime.onStartup.addListener(disableShelf);
+chrome.windows.onCreated.addListener(disableShelf);
 
 // show downloads page when toolbar button clicked
 browser.browserAction.onClicked.addListener(function(activeTab){
