@@ -1,6 +1,6 @@
 {
     "name": "Disable Download Shelf",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Disables the download bar at bottom of window",
     "author": "tyler@conceptualspace.net",
     "permissions": ["downloads", "downloads.shelf"],
